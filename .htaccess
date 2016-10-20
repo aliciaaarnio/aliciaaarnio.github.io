@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^aliciaaarnio.github.io$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^aliciaaarnio.github.io$
+RewriteCond %{REQUEST_URI} !stellar/
+RewriteRule (.*) /stellar/$1 [L]
