@@ -1,5 +1,7 @@
 @import "set2_access.css";
 @import "ihover_access.css";
+@import "normalize.css";
+@import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css";
 
 /*ACCESSIBLE SITE VERSION TEMPLATE*/
 @font-face {

@@ -2,7 +2,7 @@
 
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
-var style_domain = "http://aliciaaarnio.solar/stellar" ;
+var style_domain = "http://https://aliciaaarnio.github.io/stellar/" ;
 
 // *** END OF CUSTOMISABLE SECTION ***
 // You do not need to customise anything below this line
@@ -36,6 +36,7 @@ function set_style_from_cookie()
 function set_cookie ( cookie_name, cookie_value,
     lifespan_in_days, valid_domain )
 {
+    // https://www.thesitewizard.com/javascripts/cookies.shtml
     var domain_string = valid_domain ?
                        ("; domain=" + valid_domain) : '' ;
     document.cookie = cookie_name +
@@ -46,6 +47,7 @@ function set_cookie ( cookie_name, cookie_value,
 }
 function get_cookie ( cookie_name )
 {
+    // https://www.thesitewizard.com/javascripts/cookies.shtml
     var cookie_string = document.cookie ;
     if (cookie_string.length != 0) {
         var cookie_value = cookie_string.match (

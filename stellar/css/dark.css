@@ -1,5 +1,7 @@
 @import "set2.css";
 @import "ihover.css";
+@import "normalize.css";
+@import "../fonts/font-awesome-4.7.0/css/font-awesome.min.css";
 
 @font-face {
 	font-weight: normal;
