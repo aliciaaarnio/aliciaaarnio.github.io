@@ -36,6 +36,28 @@
     text-color: #000000;
 }
 
+.grid_5 {
+    display: inline-block;
+    text-align: center;
+    width: 320px;
+    height: 300px;
+    align: center;
+}
+
+.grid_5 figure {
+	position: relative;
+	float: left;
+/*	overflow: hidden; */
+	margin: 10px 1%;
+/*	min-width: 320px;
+	max-width: 480px;
+	max-height: 700px; */
+	width: 48%; 
+/*	height: auto;*/
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
 
 
 /* Common style */
