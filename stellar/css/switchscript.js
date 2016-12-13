@@ -2,8 +2,7 @@
 
 var style_cookie_name = "style" ;
 var style_cookie_duration = 30 ;
-/*var style_domain = "http://https://aliciaaarnio.github.io/" ;*/
-var style_domain = "http://aliciaaarnio.solar/stellar" ;
+var style_domain = "http://aliciaaarnio.github.io/" ;
 
 // *** END OF CUSTOMISABLE SECTION ***
 // You do not need to customise anything below this line
