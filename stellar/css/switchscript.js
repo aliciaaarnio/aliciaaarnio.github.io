@@ -52,8 +52,7 @@ function get_cookie ( cookie_name )
                         '(^|;)[\s]*' +
                         cookie_name +
                         '=([^;]*)' );
-    //    return decodeURIComponent ( cookie_value[2] ) ;
-        return decodeURIComponent ( cookie_value ) ;
+        return decodeURIComponent ( cookie_value[2] ) ;
     }
     return '' ;
 }
