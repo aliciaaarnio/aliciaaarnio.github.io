@@ -22,8 +22,7 @@ function switch_style ( css_title )
         link_tag[i].disabled = false ;
       }
     }
-    set_cookie( style_cookie_name, css_title,
-      style_cookie_duration, style_domain );
+    set_cookie( style_cookie_name, css_title, style_cookie_duration, style_domain );
   }
 }
 function set_style_from_cookie()
@@ -33,8 +32,7 @@ function set_style_from_cookie()
     switch_style( css_title );
   }
 }
-function set_cookie ( cookie_name, cookie_value,
-    lifespan_in_days, valid_domain )
+function set_cookie ( cookie_name, cookie_value, lifespan_in_days, valid_domain )
 {
     // https://www.thesitewizard.com/javascripts/cookies.shtml
     var domain_string = valid_domain ?
